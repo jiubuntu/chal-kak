@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303CF37E9F10813D65A775F6 /* Pods_chal_kak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3F4C827D759A988C6C0141 /* Pods_chal_kak.framework */; };
+		6F7A12D613D65F207C5ED237 /* Pods_chal_kakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B766E3DE3F095DA97309AF /* Pods_chal_kakTests.framework */; };
 		B77CCB2C2BB6A2E1006518D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB2B2BB6A2E1006518D2 /* AppDelegate.swift */; };
 		B77CCB2E2BB6A2E1006518D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB2D2BB6A2E1006518D2 /* SceneDelegate.swift */; };
-		B77CCB302BB6A2E1006518D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB2F2BB6A2E1006518D2 /* ViewController.swift */; };
+		B77CCB302BB6A2E1006518D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB2F2BB6A2E1006518D2 /* LoginViewController.swift */; };
 		B77CCB332BB6A2E1006518D2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B77CCB322BB6A2E1006518D2 /* Base */; };
 		B77CCB362BB6A2E1006518D2 /* chal_kak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB342BB6A2E1006518D2 /* chal_kak.xcdatamodeld */; };
 		B77CCB382BB6A2E2006518D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77CCB372BB6A2E2006518D2 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 		B77CCB462BB6A2E3006518D2 /* chal_kakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB452BB6A2E3006518D2 /* chal_kakTests.swift */; };
 		B77CCB502BB6A2E3006518D2 /* chal_kakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB4F2BB6A2E3006518D2 /* chal_kakUITests.swift */; };
 		B77CCB522BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB512BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift */; };
+		B77CCB5F2BB6A913006518D2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B77CCB5E2BB6A913006518D2 /* .gitignore */; };
+		C7DEAA845A5C03D123CAEC7B /* Pods_chal_kak_chal_kakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687500321711F8EC0E670364 /* Pods_chal_kak_chal_kakUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DC6978C8C31AE0FF010C75C /* Pods-chal-kakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chal-kakTests.release.xcconfig"; path = "Target Support Files/Pods-chal-kakTests/Pods-chal-kakTests.release.xcconfig"; sourceTree = "<group>"; };
+		20B766E3DE3F095DA97309AF /* Pods_chal_kakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chal_kakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		462515D2F9F442D571CBBC0B /* Pods-chal-kak-chal-kakUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chal-kak-chal-kakUITests.release.xcconfig"; path = "Target Support Files/Pods-chal-kak-chal-kakUITests/Pods-chal-kak-chal-kakUITests.release.xcconfig"; sourceTree = "<group>"; };
+		687500321711F8EC0E670364 /* Pods_chal_kak_chal_kakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chal_kak_chal_kakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3AD15E77FB2F44D0830504 /* Pods-chal-kak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chal-kak.debug.xcconfig"; path = "Target Support Files/Pods-chal-kak/Pods-chal-kak.debug.xcconfig"; sourceTree = "<group>"; };
 		B77CCB282BB6A2E1006518D2 /* chal-kak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chal-kak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77CCB2B2BB6A2E1006518D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B77CCB2D2BB6A2E1006518D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B77CCB2F2BB6A2E1006518D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B77CCB2F2BB6A2E1006518D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B77CCB322BB6A2E1006518D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B77CCB352BB6A2E1006518D2 /* chal_kak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chal_kak.xcdatamodel; sourceTree = "<group>"; };
 		B77CCB372BB6A2E2006518D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		B77CCB4B2BB6A2E3006518D2 /* chal-kakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chal-kakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77CCB4F2BB6A2E3006518D2 /* chal_kakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chal_kakUITests.swift; sourceTree = "<group>"; };
 		B77CCB512BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chal_kakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B77CCB5E2BB6A913006518D2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BC3F4C827D759A988C6C0141 /* Pods_chal_kak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chal_kak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57EEA15EF104B8132652FAC /* Pods-chal-kak-chal-kakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chal-kak-chal-kakUITests.debug.xcconfig"; path = "Target Support Files/Pods-chal-kak-chal-kakUITests/Pods-chal-kak-chal-kakUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A2C6D49099084BF2C58F6F /* Pods-chal-kak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chal-kak.release.xcconfig"; path = "Target Support Files/Pods-chal-kak/Pods-chal-kak.release.xcconfig"; sourceTree = "<group>"; };
+		FB6945671DFCE93F08258AA7 /* Pods-chal-kakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chal-kakTests.debug.xcconfig"; path = "Target Support Files/Pods-chal-kakTests/Pods-chal-kakTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303CF37E9F10813D65A775F6 /* Pods_chal_kak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F7A12D613D65F207C5ED237 /* Pods_chal_kakTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7DEAA845A5C03D123CAEC7B /* Pods_chal_kak_chal_kakUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2F78CE85F6F85454F92148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC3AD15E77FB2F44D0830504 /* Pods-chal-kak.debug.xcconfig */,
+				F8A2C6D49099084BF2C58F6F /* Pods-chal-kak.release.xcconfig */,
+				E57EEA15EF104B8132652FAC /* Pods-chal-kak-chal-kakUITests.debug.xcconfig */,
+				462515D2F9F442D571CBBC0B /* Pods-chal-kak-chal-kakUITests.release.xcconfig */,
+				FB6945671DFCE93F08258AA7 /* Pods-chal-kakTests.debug.xcconfig */,
+				0DC6978C8C31AE0FF010C75C /* Pods-chal-kakTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B77CCB1F2BB6A2E1006518D2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				B77CCB442BB6A2E3006518D2 /* chal-kakTests */,
 				B77CCB4E2BB6A2E3006518D2 /* chal-kakUITests */,
 				B77CCB292BB6A2E1006518D2 /* Products */,
+				1B2F78CE85F6F85454F92148 /* Pods */,
+				B8B23B726BABF38EDDDC3ABB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +135,8 @@
 			children = (
 				B77CCB2B2BB6A2E1006518D2 /* AppDelegate.swift */,
 				B77CCB2D2BB6A2E1006518D2 /* SceneDelegate.swift */,
-				B77CCB2F2BB6A2E1006518D2 /* ViewController.swift */,
+				B77CCB2F2BB6A2E1006518D2 /* LoginViewController.swift */,
+				B77CCB5E2BB6A913006518D2 /* .gitignore */,
 				B77CCB312BB6A2E1006518D2 /* Main.storyboard */,
 				B77CCB372BB6A2E2006518D2 /* Assets.xcassets */,
 				B77CCB392BB6A2E2006518D2 /* LaunchScreen.storyboard */,
@@ -130,6 +163,16 @@
 			path = "chal-kakUITests";
 			sourceTree = "<group>";
 		};
+		B8B23B726BABF38EDDDC3ABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC3F4C827D759A988C6C0141 /* Pods_chal_kak.framework */,
+				687500321711F8EC0E670364 /* Pods_chal_kak_chal_kakUITests.framework */,
+				20B766E3DE3F095DA97309AF /* Pods_chal_kakTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B77CCB552BB6A2E3006518D2 /* Build configuration list for PBXNativeTarget "chal-kak" */;
 			buildPhases = (
+				A72C9A00D4ACD32C782DA5BA /* [CP] Check Pods Manifest.lock */,
 				B77CCB242BB6A2E1006518D2 /* Sources */,
 				B77CCB252BB6A2E1006518D2 /* Frameworks */,
 				B77CCB262BB6A2E1006518D2 /* Resources */,
+				3807254793F1DDB44A653F9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B77CCB582BB6A2E3006518D2 /* Build configuration list for PBXNativeTarget "chal-kakTests" */;
 			buildPhases = (
+				46AEE8B1E2A8DCDF619439F9 /* [CP] Check Pods Manifest.lock */,
 				B77CCB3D2BB6A2E3006518D2 /* Sources */,
 				B77CCB3E2BB6A2E3006518D2 /* Frameworks */,
 				B77CCB3F2BB6A2E3006518D2 /* Resources */,
@@ -172,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B77CCB5B2BB6A2E3006518D2 /* Build configuration list for PBXNativeTarget "chal-kakUITests" */;
 			buildPhases = (
+				E8D8EB45B1761229074FF1FE /* [CP] Check Pods Manifest.lock */,
 				B77CCB472BB6A2E3006518D2 /* Sources */,
 				B77CCB482BB6A2E3006518D2 /* Frameworks */,
 				B77CCB492BB6A2E3006518D2 /* Resources */,
+				E22C48037710631CD1905D34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77CCB5F2BB6A913006518D2 /* .gitignore in Resources */,
 				B77CCB382BB6A2E2006518D2 /* Assets.xcassets in Resources */,
 				B77CCB3B2BB6A2E2006518D2 /* Base in Resources */,
 				B77CCB332BB6A2E1006518D2 /* Base in Resources */,
@@ -256,12 +305,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3807254793F1DDB44A653F9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chal-kak/Pods-chal-kak-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chal-kak/Pods-chal-kak-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chal-kak/Pods-chal-kak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46AEE8B1E2A8DCDF619439F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chal-kakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72C9A00D4ACD32C782DA5BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chal-kak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22C48037710631CD1905D34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chal-kak-chal-kakUITests/Pods-chal-kak-chal-kakUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chal-kak-chal-kakUITests/Pods-chal-kak-chal-kakUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chal-kak-chal-kakUITests/Pods-chal-kak-chal-kakUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D8EB45B1761229074FF1FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chal-kak-chal-kakUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B77CCB242BB6A2E1006518D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B77CCB302BB6A2E1006518D2 /* ViewController.swift in Sources */,
+				B77CCB302BB6A2E1006518D2 /* LoginViewController.swift in Sources */,
 				B77CCB2C2BB6A2E1006518D2 /* AppDelegate.swift in Sources */,
 				B77CCB2E2BB6A2E1006518D2 /* SceneDelegate.swift in Sources */,
 				B77CCB362BB6A2E1006518D2 /* chal_kak.xcdatamodeld in Sources */,
@@ -441,19 +593,22 @@
 		};
 		B77CCB562BB6A2E3006518D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3AD15E77FB2F44D0830504 /* Pods-chal-kak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MN476Q2M5N;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "chal-kak/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,27 +616,34 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwoo.chal-kak";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B77CCB572BB6A2E3006518D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A2C6D49099084BF2C58F6F /* Pods-chal-kak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MN476Q2M5N;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "chal-kak/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,14 +651,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwoo.chal-kak";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B77CCB592BB6A2E3006518D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6945671DFCE93F08258AA7 /* Pods-chal-kakTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +684,7 @@
 		};
 		B77CCB5A2BB6A2E3006518D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC6978C8C31AE0FF010C75C /* Pods-chal-kakTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +705,7 @@
 		};
 		B77CCB5C2BB6A2E3006518D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57EEA15EF104B8132652FAC /* Pods-chal-kak-chal-kakUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +724,7 @@
 		};
 		B77CCB5D2BB6A2E3006518D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462515D2F9F442D571CBBC0B /* Pods-chal-kak-chal-kakUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

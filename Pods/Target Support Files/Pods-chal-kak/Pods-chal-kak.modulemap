@@ -1,0 +1,6 @@
+framework module Pods_chal_kak {
+  umbrella header "Pods-chal-kak-umbrella.h"
+
+  export *
+  module * { export * }
+}
