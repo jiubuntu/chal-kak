@@ -19,7 +19,7 @@
 		B77CCB462BB6A2E3006518D2 /* chal_kakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB452BB6A2E3006518D2 /* chal_kakTests.swift */; };
 		B77CCB502BB6A2E3006518D2 /* chal_kakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB4F2BB6A2E3006518D2 /* chal_kakUITests.swift */; };
 		B77CCB522BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB512BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift */; };
-		B77CCB5F2BB6A913006518D2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B77CCB5E2BB6A913006518D2 /* .gitignore */; };
+		B77CCB612BB6AE02006518D2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B77CCB602BB6AE02006518D2 /* .gitignore */; };
 		C7DEAA845A5C03D123CAEC7B /* Pods_chal_kak_chal_kakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687500321711F8EC0E670364 /* Pods_chal_kak_chal_kakUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +60,7 @@
 		B77CCB4B2BB6A2E3006518D2 /* chal-kakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chal-kakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77CCB4F2BB6A2E3006518D2 /* chal_kakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chal_kakUITests.swift; sourceTree = "<group>"; };
 		B77CCB512BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chal_kakUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B77CCB5E2BB6A913006518D2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B77CCB602BB6AE02006518D2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BC3F4C827D759A988C6C0141 /* Pods_chal_kak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chal_kak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57EEA15EF104B8132652FAC /* Pods-chal-kak-chal-kakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chal-kak-chal-kakUITests.debug.xcconfig"; path = "Target Support Files/Pods-chal-kak-chal-kakUITests/Pods-chal-kak-chal-kakUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8A2C6D49099084BF2C58F6F /* Pods-chal-kak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chal-kak.release.xcconfig"; path = "Target Support Files/Pods-chal-kak/Pods-chal-kak.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		B77CCB1F2BB6A2E1006518D2 = {
 			isa = PBXGroup;
 			children = (
-				B77CCB5E2BB6A913006518D2 /* .gitignore */,
+				B77CCB602BB6AE02006518D2 /* .gitignore */,
 				B77CCB2A2BB6A2E1006518D2 /* chal-kak */,
 				B77CCB442BB6A2E3006518D2 /* chal-kakTests */,
 				B77CCB4E2BB6A2E3006518D2 /* chal-kakUITests */,
@@ -282,7 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B77CCB5F2BB6A913006518D2 /* .gitignore in Resources */,
+				B77CCB612BB6AE02006518D2 /* .gitignore in Resources */,
 				B77CCB382BB6A2E2006518D2 /* Assets.xcassets in Resources */,
 				B77CCB3B2BB6A2E2006518D2 /* Base in Resources */,
 				B77CCB332BB6A2E1006518D2 /* Base in Resources */,
