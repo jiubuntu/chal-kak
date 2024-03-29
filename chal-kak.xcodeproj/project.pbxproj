@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B77CCB2C2BB6A2E1006518D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB2B2BB6A2E1006518D2 /* AppDelegate.swift */; };
+		B77CCB2E2BB6A2E1006518D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB2D2BB6A2E1006518D2 /* SceneDelegate.swift */; };
+		B77CCB302BB6A2E1006518D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB2F2BB6A2E1006518D2 /* ViewController.swift */; };
+		B77CCB332BB6A2E1006518D2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B77CCB322BB6A2E1006518D2 /* Base */; };
+		B77CCB362BB6A2E1006518D2 /* chal_kak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB342BB6A2E1006518D2 /* chal_kak.xcdatamodeld */; };
+		B77CCB382BB6A2E2006518D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77CCB372BB6A2E2006518D2 /* Assets.xcassets */; };
+		B77CCB3B2BB6A2E2006518D2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B77CCB3A2BB6A2E2006518D2 /* Base */; };
+		B77CCB462BB6A2E3006518D2 /* chal_kakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB452BB6A2E3006518D2 /* chal_kakTests.swift */; };
+		B77CCB502BB6A2E3006518D2 /* chal_kakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB4F2BB6A2E3006518D2 /* chal_kakUITests.swift */; };
+		B77CCB522BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CCB512BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B77CCB422BB6A2E3006518D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B77CCB202BB6A2E1006518D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B77CCB272BB6A2E1006518D2;
+			remoteInfo = "chal-kak";
+		};
+		B77CCB4C2BB6A2E3006518D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B77CCB202BB6A2E1006518D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B77CCB272BB6A2E1006518D2;
+			remoteInfo = "chal-kak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B77CCB282BB6A2E1006518D2 /* chal-kak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chal-kak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77CCB2B2BB6A2E1006518D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B77CCB2D2BB6A2E1006518D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B77CCB2F2BB6A2E1006518D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B77CCB322BB6A2E1006518D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B77CCB352BB6A2E1006518D2 /* chal_kak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chal_kak.xcdatamodel; sourceTree = "<group>"; };
+		B77CCB372BB6A2E2006518D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B77CCB3A2BB6A2E2006518D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B77CCB3C2BB6A2E2006518D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77CCB412BB6A2E3006518D2 /* chal-kakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chal-kakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77CCB452BB6A2E3006518D2 /* chal_kakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chal_kakTests.swift; sourceTree = "<group>"; };
+		B77CCB4B2BB6A2E3006518D2 /* chal-kakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chal-kakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77CCB4F2BB6A2E3006518D2 /* chal_kakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chal_kakUITests.swift; sourceTree = "<group>"; };
+		B77CCB512BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chal_kakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B77CCB252BB6A2E1006518D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77CCB3E2BB6A2E3006518D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77CCB482BB6A2E3006518D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B77CCB1F2BB6A2E1006518D2 = {
+			isa = PBXGroup;
+			children = (
+				B77CCB2A2BB6A2E1006518D2 /* chal-kak */,
+				B77CCB442BB6A2E3006518D2 /* chal-kakTests */,
+				B77CCB4E2BB6A2E3006518D2 /* chal-kakUITests */,
+				B77CCB292BB6A2E1006518D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B77CCB292BB6A2E1006518D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B77CCB282BB6A2E1006518D2 /* chal-kak.app */,
+				B77CCB412BB6A2E3006518D2 /* chal-kakTests.xctest */,
+				B77CCB4B2BB6A2E3006518D2 /* chal-kakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B77CCB2A2BB6A2E1006518D2 /* chal-kak */ = {
+			isa = PBXGroup;
+			children = (
+				B77CCB2B2BB6A2E1006518D2 /* AppDelegate.swift */,
+				B77CCB2D2BB6A2E1006518D2 /* SceneDelegate.swift */,
+				B77CCB2F2BB6A2E1006518D2 /* ViewController.swift */,
+				B77CCB312BB6A2E1006518D2 /* Main.storyboard */,
+				B77CCB372BB6A2E2006518D2 /* Assets.xcassets */,
+				B77CCB392BB6A2E2006518D2 /* LaunchScreen.storyboard */,
+				B77CCB3C2BB6A2E2006518D2 /* Info.plist */,
+				B77CCB342BB6A2E1006518D2 /* chal_kak.xcdatamodeld */,
+			);
+			path = "chal-kak";
+			sourceTree = "<group>";
+		};
+		B77CCB442BB6A2E3006518D2 /* chal-kakTests */ = {
+			isa = PBXGroup;
+			children = (
+				B77CCB452BB6A2E3006518D2 /* chal_kakTests.swift */,
+			);
+			path = "chal-kakTests";
+			sourceTree = "<group>";
+		};
+		B77CCB4E2BB6A2E3006518D2 /* chal-kakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B77CCB4F2BB6A2E3006518D2 /* chal_kakUITests.swift */,
+				B77CCB512BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift */,
+			);
+			path = "chal-kakUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B77CCB272BB6A2E1006518D2 /* chal-kak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77CCB552BB6A2E3006518D2 /* Build configuration list for PBXNativeTarget "chal-kak" */;
+			buildPhases = (
+				B77CCB242BB6A2E1006518D2 /* Sources */,
+				B77CCB252BB6A2E1006518D2 /* Frameworks */,
+				B77CCB262BB6A2E1006518D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chal-kak";
+			productName = "chal-kak";
+			productReference = B77CCB282BB6A2E1006518D2 /* chal-kak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B77CCB402BB6A2E3006518D2 /* chal-kakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77CCB582BB6A2E3006518D2 /* Build configuration list for PBXNativeTarget "chal-kakTests" */;
+			buildPhases = (
+				B77CCB3D2BB6A2E3006518D2 /* Sources */,
+				B77CCB3E2BB6A2E3006518D2 /* Frameworks */,
+				B77CCB3F2BB6A2E3006518D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77CCB432BB6A2E3006518D2 /* PBXTargetDependency */,
+			);
+			name = "chal-kakTests";
+			productName = "chal-kakTests";
+			productReference = B77CCB412BB6A2E3006518D2 /* chal-kakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B77CCB4A2BB6A2E3006518D2 /* chal-kakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77CCB5B2BB6A2E3006518D2 /* Build configuration list for PBXNativeTarget "chal-kakUITests" */;
+			buildPhases = (
+				B77CCB472BB6A2E3006518D2 /* Sources */,
+				B77CCB482BB6A2E3006518D2 /* Frameworks */,
+				B77CCB492BB6A2E3006518D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77CCB4D2BB6A2E3006518D2 /* PBXTargetDependency */,
+			);
+			name = "chal-kakUITests";
+			productName = "chal-kakUITests";
+			productReference = B77CCB4B2BB6A2E3006518D2 /* chal-kakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B77CCB202BB6A2E1006518D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B77CCB272BB6A2E1006518D2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B77CCB402BB6A2E3006518D2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B77CCB272BB6A2E1006518D2;
+					};
+					B77CCB4A2BB6A2E3006518D2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B77CCB272BB6A2E1006518D2;
+					};
+				};
+			};
+			buildConfigurationList = B77CCB232BB6A2E1006518D2 /* Build configuration list for PBXProject "chal-kak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B77CCB1F2BB6A2E1006518D2;
+			productRefGroup = B77CCB292BB6A2E1006518D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B77CCB272BB6A2E1006518D2 /* chal-kak */,
+				B77CCB402BB6A2E3006518D2 /* chal-kakTests */,
+				B77CCB4A2BB6A2E3006518D2 /* chal-kakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B77CCB262BB6A2E1006518D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77CCB382BB6A2E2006518D2 /* Assets.xcassets in Resources */,
+				B77CCB3B2BB6A2E2006518D2 /* Base in Resources */,
+				B77CCB332BB6A2E1006518D2 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77CCB3F2BB6A2E3006518D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77CCB492BB6A2E3006518D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B77CCB242BB6A2E1006518D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77CCB302BB6A2E1006518D2 /* ViewController.swift in Sources */,
+				B77CCB2C2BB6A2E1006518D2 /* AppDelegate.swift in Sources */,
+				B77CCB2E2BB6A2E1006518D2 /* SceneDelegate.swift in Sources */,
+				B77CCB362BB6A2E1006518D2 /* chal_kak.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77CCB3D2BB6A2E3006518D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77CCB462BB6A2E3006518D2 /* chal_kakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77CCB472BB6A2E3006518D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77CCB522BB6A2E3006518D2 /* chal_kakUITestsLaunchTests.swift in Sources */,
+				B77CCB502BB6A2E3006518D2 /* chal_kakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B77CCB432BB6A2E3006518D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B77CCB272BB6A2E1006518D2 /* chal-kak */;
+			targetProxy = B77CCB422BB6A2E3006518D2 /* PBXContainerItemProxy */;
+		};
+		B77CCB4D2BB6A2E3006518D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B77CCB272BB6A2E1006518D2 /* chal-kak */;
+			targetProxy = B77CCB4C2BB6A2E3006518D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B77CCB312BB6A2E1006518D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B77CCB322BB6A2E1006518D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B77CCB392BB6A2E2006518D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B77CCB3A2BB6A2E2006518D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B77CCB532BB6A2E3006518D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B77CCB542BB6A2E3006518D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B77CCB562BB6A2E3006518D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN476Q2M5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "chal-kak/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwoo.chal-kak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B77CCB572BB6A2E3006518D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN476Q2M5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "chal-kak/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwoo.chal-kak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B77CCB592BB6A2E3006518D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN476Q2M5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwoo.chal-kakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chal-kak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chal-kak";
+			};
+			name = Debug;
+		};
+		B77CCB5A2BB6A2E3006518D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN476Q2M5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwoo.chal-kakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chal-kak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chal-kak";
+			};
+			name = Release;
+		};
+		B77CCB5C2BB6A2E3006518D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN476Q2M5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwoo.chal-kakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "chal-kak";
+			};
+			name = Debug;
+		};
+		B77CCB5D2BB6A2E3006518D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN476Q2M5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwoo.chal-kakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "chal-kak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B77CCB232BB6A2E1006518D2 /* Build configuration list for PBXProject "chal-kak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77CCB532BB6A2E3006518D2 /* Debug */,
+				B77CCB542BB6A2E3006518D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77CCB552BB6A2E3006518D2 /* Build configuration list for PBXNativeTarget "chal-kak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77CCB562BB6A2E3006518D2 /* Debug */,
+				B77CCB572BB6A2E3006518D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77CCB582BB6A2E3006518D2 /* Build configuration list for PBXNativeTarget "chal-kakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77CCB592BB6A2E3006518D2 /* Debug */,
+				B77CCB5A2BB6A2E3006518D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77CCB5B2BB6A2E3006518D2 /* Build configuration list for PBXNativeTarget "chal-kakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77CCB5C2BB6A2E3006518D2 /* Debug */,
+				B77CCB5D2BB6A2E3006518D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B77CCB342BB6A2E1006518D2 /* chal_kak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B77CCB352BB6A2E1006518D2 /* chal_kak.xcdatamodel */,
+			);
+			currentVersion = B77CCB352BB6A2E1006518D2 /* chal_kak.xcdatamodel */;
+			path = chal_kak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B77CCB202BB6A2E1006518D2 /* Project object */;
+}
