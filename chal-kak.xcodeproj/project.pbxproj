@@ -111,6 +111,7 @@
 		B77CCB1F2BB6A2E1006518D2 = {
 			isa = PBXGroup;
 			children = (
+				B77CCB5E2BB6A913006518D2 /* .gitignore */,
 				B77CCB2A2BB6A2E1006518D2 /* chal-kak */,
 				B77CCB442BB6A2E3006518D2 /* chal-kakTests */,
 				B77CCB4E2BB6A2E3006518D2 /* chal-kakUITests */,
@@ -136,7 +137,6 @@
 				B77CCB2B2BB6A2E1006518D2 /* AppDelegate.swift */,
 				B77CCB2D2BB6A2E1006518D2 /* SceneDelegate.swift */,
 				B77CCB2F2BB6A2E1006518D2 /* LoginViewController.swift */,
-				B77CCB5E2BB6A913006518D2 /* .gitignore */,
 				B77CCB312BB6A2E1006518D2 /* Main.storyboard */,
 				B77CCB372BB6A2E2006518D2 /* Assets.xcassets */,
 				B77CCB392BB6A2E2006518D2 /* LaunchScreen.storyboard */,
